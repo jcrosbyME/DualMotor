@@ -1,0 +1,29 @@
+# Syntax Highlighting for DualMotor Library
+DualMotor	KEYWORD1
+
+setStandby      KEYWORD2
+begin           KEYWORD2
+setInverted     KEYWORD2
+brake           KEYWORD2
+coast           KEYWORD2
+setDirection    KEYWORD2
+getDirection    KEYWORD2
+setSpeed        KEYWORD2
+getSpeed        KEYWORD2
+setDirSpeed     KEYWORD2
+getDirSpeed     KEYWORD2
+
+DIR_TYPE        KEYWORD2
+_MODE           KEYWORD2
+_motor          KEYWORD2
+
+_forward        LITERAL1
+_reverse        LITERAL1
+_stop           LITERAL1
+_brake          LITERAL1
+_coast          LITERAL1
+_crossed        LITERAL1
+
+
+
+

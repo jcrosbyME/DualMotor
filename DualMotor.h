@@ -53,6 +53,8 @@ public:
     void setStandby(_MODE mode);    //Set the Standby Mode, _active ('0') or _inactive ('1').
     _MODE getStandby();             //Get the current Standby Mode, _active or _inactive.
 
+    void setInverted(_motor M, bool invert); //Set inversion of motor direction. true = inverted, false = normal.
+
     void brake(_motor M);
     void coast(_motor M);
 
@@ -90,6 +92,9 @@ private:
     DIR_TYPE _REVERSE = {LOW, HIGH};
     DIR_TYPE _BRAKE   = {HIGH, HIGH};
     DIR_TYPE _COAST   = {LOW, LOW};
+
+    bool invertM1;           //Inversion flag for Motor 1 direction.
+    bool invertM2;           //Inversion flag for Motor 2 direction.
 
     void applySettings(_motor M);
     
