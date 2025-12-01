@@ -10,7 +10,7 @@
 #if defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h"
 #else
-#include <Program.h>
+;;#include <Program.h>
 #include <pins_ardiuono.h>
 #endif
 
