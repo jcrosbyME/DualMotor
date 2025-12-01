@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../DualMotor/src"
+		},
+		{
+			"name": "DualMotor",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
